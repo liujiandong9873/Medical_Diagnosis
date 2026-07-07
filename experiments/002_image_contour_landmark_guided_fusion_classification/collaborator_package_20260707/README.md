@@ -21,6 +21,18 @@ All files in this package are copies. The original model code remains in its ori
   EXPERIMENT_002_MANUSCRIPT_FRAMEWORK_FOR_COLLABORATORS.md
 ```
 
+## Dataset Description
+
+```text
+01_zyq_dataset_description/
+  ZYQ_DATASET_DESCRIPTION.md
+  case_examples/
+  case_examples_manifest.csv
+  generate_zyq_case_examples.py
+```
+
+This folder describes the ZYQ dataset used by Experiment 002 and provides ten annotated case figures for collaborators.
+
 ## Model Code Folders
 
 | Folder | Corresponding model / route | Included file types |
@@ -49,4 +61,3 @@ All files in this package are copies. The original model code remains in its ori
 3. If code is modified for future experiments, modify the original experiment route or create a new experiment folder, not this package.
 4. The main paper-facing metrics are Acc, Pre, Recall, and F1.
 ```
-
